@@ -1,3 +1,3 @@
-FROM hub.maestro.io/crisidev/registry
+FROM registry:2
 
 ADD config.yml /go/src/github.com/docker/distribution/cmd/registry/
